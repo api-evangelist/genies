@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.genies.com/docs/sdk-avatar/getting-started/
+docs: https://hub.genies.com/
+notes: >-
+  Genies has no public REST/OpenAPI surface; auth is captured from the developer
+  docs. Developers create a Genies account, register a project in the Genies
+  Developer Hub (hub.genies.com), and receive API keys / authentication tokens
+  used by the Unity Avatar SDK to authenticate the app and store Genies data.
+  End users can additionally authenticate to load their personal global avatar.
+summary:
+  types:
+    - apiKey
+  api_key_in:
+    - project-registration
+  oauth2_flows: []
+schemes:
+  - name: GeniesProjectApiKey
+    type: apiKey
+    description: >-
+      Per-project API key issued from the Genies Developer Hub after registering
+      a project; supplied to the Avatar SDK to authenticate the application.
+    obtain: https://hub.genies.com/
+    sources:
+      - https://docs.genies.com/docs/sdk-avatar/getting-started/
