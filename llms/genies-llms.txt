@@ -1,0 +1,23 @@
+# Genies
+
+> Genies is an AI avatar and digital-identity company powering the visual and embodiment layer for AI. Its Unity-based Avatar SDK lets developers integrate high-fidelity, fully customizable 3D avatars and "Smart Avatars" (LLM- and behavior-driven characters) into games, apps, and XR experiences across iOS, Android, Windows, and VR. Developers register a project in the Genies Developer Hub to obtain API keys used by the SDK.
+
+## Developer
+- [Developer Documentation](https://docs.genies.com/docs/intro/): Genies technical docs home
+- [Getting Started](https://docs.genies.com/docs/sdk-avatar/getting-started/): prerequisites, install (Bootstrap Wizard), and project registration for API keys
+- [Avatar SDK Reference](https://docs.genies.com/docs/sdk-avatar/): SDK class/method reference, load-avatar, customization, and asset pre-caching APIs
+- [Developer Hub](https://hub.genies.com/): create an account, register a project, and manage API keys
+- [Unity Asset Store](https://assetstore.unity.com/genies): download the Genies Avatar SDK
+
+## Packages
+- [com.genies.avatareditor-sdk.client](https://github.com/geniesinc/com.genies.avatareditor-sdk.client): legacy avatar editor UPM package (C#/Unity)
+- [Genies GitHub](https://github.com/geniesinc): sample projects, starter packs, and the Memora agent-memory benchmark
+
+## Company
+- [Blog](https://genies.com/blog): product and SDK announcements
+- [Press](https://genies.com/press)
+- [Terms of Service](https://vault.pactsafe.io/s/c6039daa-76fb-4b71-bb07-77676913b3fc/legal.html#contract-rm6xfx7wfj)
+- [Privacy Policy](https://vault.pactsafe.io/s/c6039daa-76fb-4b71-bb07-77676913b3fc/legal.html#contract-jktkfxmfc)
+
+## Community
+- [Discord](https://discord.gg/genies): developer community and support

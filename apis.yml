@@ -1,8 +1,16 @@
 aid: genies
 name: Genies
-description: 'Genies is a company surfaced as a portfolio company of bond-capital, multicoin-capital,
-  trinity-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Genies is an AI avatar and digital-identity company that powers the visual and
+  embodiment layer for AI. Founded in 2017 and headquartered in West Hollywood /
+  Venice, California, Genies builds high-fidelity, fully customizable 3D avatars
+  and "Smart Avatars" — LLM- and behavior-driven digital characters that can act,
+  react, converse, and persist across games, apps, and XR experiences. For
+  developers, Genies ships a Unity-based Avatar SDK (C#) with avatar loading,
+  a customization API for wearables/hair/makeup/tattoos, and asset pre-caching,
+  supporting iOS, Android, Windows Standalone, and VR. Developers register a
+  project in the Genies Developer Hub to obtain API keys used by the SDK. Backed
+  by Bond Capital, Multicoin Capital, and Trinity Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/genies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +20,31 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://framerusercontent.com/images/B6Xe2D13MmMxugDCl7CzDwFeKc.png
 tags:
 - Company
 - Consumer
+- Avatars
+- Digital Identity
+- Artificial Intelligence
+- Gaming
+- SDK
+- Unity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +54,40 @@ maintainers:
 common:
 - type: Website
   url: https://genies.com
+- type: DeveloperPortal
+  url: https://hub.genies.com/
+- type: Documentation
+  url: https://docs.genies.com/docs/intro/
+- type: APIReference
+  url: https://docs.genies.com/docs/sdk-avatar/
+- type: GettingStarted
+  url: https://docs.genies.com/docs/sdk-avatar/getting-started/
+- type: SignUp
+  url: https://hub.genies.com/
+- type: Support
+  url: https://discord.gg/genies
+- type: Blog
+  url: https://genies.com/blog
+- type: GitHubOrganization
+  url: https://github.com/geniesinc
+- type: TermsOfService
+  url: https://vault.pactsafe.io/s/c6039daa-76fb-4b71-bb07-77676913b3fc/legal.html#contract-rm6xfx7wfj
+- type: PrivacyPolicy
+  url: https://vault.pactsafe.io/s/c6039daa-76fb-4b71-bb07-77676913b3fc/legal.html#contract-jktkfxmfc
+- type: Packages
+  url: packages/genies-packages.yml
+- type: SDKs
+  url: packages/genies-packages.yml
+- type: Authentication
+  url: authentication/genies-authentication.yml
+- type: ChangeLog
+  url: changelog/genies-changelog.yml
+- type: DomainSecurity
+  url: security/genies-domain-security.yml
+- type: LLMsTxt
+  url: llms/genies-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

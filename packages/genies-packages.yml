@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://docs.genies.com/docs/sdk-avatar/getting-started/
+notes: >-
+  Genies ships a Unity-based Avatar SDK (C#) rather than language client libraries
+  on public package registries. The SDK is installed into a Unity project via the
+  Genies Bootstrap Wizard (which pulls com.genies.* UPM packages) and is also
+  distributed through the Unity Asset Store. No npm/PyPI/Maven/NuGet first-party
+  client library was found.
+packages:
+  - language: csharp
+    platform: unity
+    registry: unity-asset-store
+    name: Genies Avatar SDK
+    url: https://assetstore.unity.com/genies
+    install: Install via the Genies Bootstrap Wizard in Unity (2022.3.62f2+)
+    docs: https://docs.genies.com/docs/sdk-avatar/getting-started/
+    official: true
+  - language: csharp
+    platform: unity
+    registry: upm-github
+    name: com.genies.avatareditor-sdk.client
+    url: https://github.com/geniesinc/com.genies.avatareditor-sdk.client
+    install: Add as a Unity Package Manager (UPM) git dependency
+    official: true

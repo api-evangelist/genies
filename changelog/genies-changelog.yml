@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://genies.com/blog/genies-avatar-sdk-v2.8.2-fully-custom-avatar-editors-faster-loading-more
+docs: https://docs.genies.com/docs/sdk-avatar/
+notes: >-
+  Genies publishes Avatar SDK release notes in its docs and announces notable SDK
+  releases on the company blog. Versioning follows semantic-style SDK versions
+  (Avatar SDK vMAJOR.MINOR.PATCH). Only the recent window is captured here.
+scheme: semver
+current_version: 2.8.2
+entries:
+  - version: 2.8.2
+    date: '2025'
+    breaking: false
+    highlights:
+      - Fully custom avatar editors via the Avatar Customization API
+      - Faster avatar loading
+    source: https://genies.com/blog/genies-avatar-sdk-v2.8.2-fully-custom-avatar-editors-faster-loading-more
